@@ -1,0 +1,319 @@
+
+.Webbody{
+    background-color: rgb(6, 238, 184);
+    margin: 0px;
+    
+}
+ .navbar{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-left: 420px;
+    /*position: fixed;*/
+    background-color: rgb(6, 238, 184);
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 10px;
+} 
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Slider{
+    width: 36%;
+    height: 480px;
+    position: absolute;
+    left: 32%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear ;
+}
+@keyframes slider{
+    0%{background-image: url(./images/1.png);}
+    10%{ background-image: url(./images/2.png);}
+    20%{background-image: url(./images/3.png);}
+    30%{background-image: url(./images/4.png);}
+    40%{background-image: url(./images/1.png);}
+    50%{ background-image: url(./images/2.png);}
+    60%{background-image: url(./images/3.png);}
+    70%{background-image: url(./images/4.png);}
+    80%{background-image: url(./images/1.png);}
+    90%{background-image: url(./images/2.png);}
+
+}
+
+.paragraph{
+    position: relative;
+    text-align: center;
+    padding-left: 620px;
+    top: 220px;
+    font-size: 19px;
+}
+.paragraph #prgh {
+    text-align: center;
+}
+
+.WePart2{
+    background-color:rgb(240, 236, 236);
+    margin: 500px -10px 200px -10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.WePart2 #Wp {
+    position: relative;
+    text-align: center;
+    top: -970px;
+}
+#Wewordpres{
+    position: relative;
+    margin-left: -640px;
+    margin-top: -880px;
+    text-align: center;
+}
+#Wecontentful{
+    position: relative;
+    margin-left: 625px;
+    margin-top: -200px;
+    text-align: center;
+}
+#Weshopify{
+    position: relative;
+    margin-top: -190px;
+    text-align: center;
+}
+.WePart2 #Wp1 {
+    position: relative;
+    text-align: center;
+    top: 70px;
+
+}
+
+#ADJ{
+    position: relative;
+    margin-left: -640px;
+    margin-top: -670px;
+    text-align: center;
+    
+}
+#Java{
+    position: relative;
+    margin-left: 625px;
+    margin-top: -190px;
+    text-align: center;
+   
+}
+#Cp{
+    position: relative;
+    margin-top: -190px;
+    text-align: center;
+   
+}
+.WePart3 {
+    position: relative;
+    margin-left: 290px;
+    margin-top: 250px;
+
+}
+.WePart3 #button {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 580px;
+    background-color: rgb(6, 238, 184);
+    padding: 10px 50px 10px 50px;
+   
+
+}
+.video{
+    height: 10px;
+    width: 10px;
+}
+
+#button2{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#button3{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 4px;
+   background-color: rgb(129, 111, 61);
+    
+    color: white;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin-top: -180px;
+    background-color: rgb(6, 238, 184);
+}
+.left .logo-text {
+    font-size: 23px;
+    
+}
+.logo-text span{
+    font-size: 28px;
+    background-color: rgb(6, 238, 184);
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.box .content{
+    margin: 20px 0 0 0;
+    
+}
+.center .content .place {
+    margin-top: 80px;
+}
+.center .content .phone {
+    margin-top: -40px;
+}
+.center .content .email {
+    margin-top: -40px;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding:  0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+   background-color: rgba(241, 241, 241, 0.897);
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+.left .content .social a span:hover{
+    background: #72a5e7;
+}
+.right .content{
+    font-family: sans-serif;
+}
+.right .content .email input {
+    width: 260px;
+    height: 30px;
+    background-color:rgba(241, 241, 241, 0.897);;
+}
+.right .content .msg textarea {
+    width: 260px;
+    height: 60px;
+    background-color: rgba(241, 241, 241, 0.897);;
+}
+.right .content .btn {
+    margin: 10px;
+    margin-left: 200px;
+}
+.right .content .btn button{
+    width: 60px;
+    height: 30px;
+   background-color: rgba(241, 241, 241, 0.897);
+
+}
+
+.mainn-content{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 2280px;
+    background-color: rgb(247, 185, 17);
+
+}
+.logoo-text span{
+    font-size: 28px;
+    background-color: rgb(247, 185, 17);
+
+}
+.mainn-content{
+    display: flex;
+}
+.mainn-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+
+.ShopifyBody{
+    margin: 0px;
+}
+.Shvideo{
+    position: absolute;
+    padding-left: 650px;
+    background-color: rgb(247, 185, 17);
+}
+.ShPart2{
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 220px;
+    text-align: left;
+}
+.imgSh{
+    margin-top: 571px;
+}
+.imgsh1 {
+    margin-top: -450px;
+    margin-left: 10px;
+    text-align: left;
+    color: rgb(129, 111, 61);
+}
+.imgShh{
+    margin-top: 200px;
+}
+.imgsh2 {
+    margin-top: -290px;
+    margin-left: 500px;
+    text-align: center;
+    color: rgb(129, 111, 61);
+    
+    
+}
+
+
+
+.ContentfulBody{
+    margin: 0px;
+}
+.Cvideo{
+    position: absolute;
+    padding-left: 650px;
+    background-color: rgb(248, 65, 41);
+}
+.CPart2{
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 220px;
+    text-align: center;
+}
+
+
+
+
+
+
+
